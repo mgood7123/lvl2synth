@@ -1,0 +1,38 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-I/Users/smallville7123/Desktop/lv2_Synth",
+      "-DNDEBUG",
+      "-fshow-column",
+      "-fPIC",
+      "-I/usr/local/include",
+      "-I/Users/smallville7123/Desktop/lv2_Synth/build",
+      "-DSYNTH_LV2_VERSION=\"1.0.0\"",
+      "-DHAVE_LV2=1",
+      "../synth.c",
+      "-c",
+      "-o/Users/smallville7123/Desktop/lv2_Synth/build/synth.c.3.o"
+    ],
+    "directory": "/Users/smallville7123/Desktop/lv2_Synth/build",
+    "file": "../synth.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-I/Users/smallville7123/Desktop/lv2_Synth",
+      "-DNDEBUG",
+      "-fshow-column",
+      "-fPIC",
+      "-I/usr/local/include",
+      "-I/Users/smallville7123/Desktop/lv2_Synth/build",
+      "-DEG_AMP_LV2_VERSION=\"1.0.0\"",
+      "-DHAVE_LV2=1",
+      "../amp.c",
+      "-c",
+      "-o/Users/smallville7123/Desktop/lv2_Synth/build/amp.c.3.o"
+    ],
+    "directory": "/Users/smallville7123/Desktop/lv2_Synth/build",
+    "file": "../amp.c"
+  }
+]
